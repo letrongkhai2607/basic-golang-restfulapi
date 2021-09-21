@@ -1,0 +1,32 @@
+###
+GET http://127.0.0.1:3000/api/users
+
+###
+POST http://127.0.0.1:3000/api/users
+content-type: application/json
+
+{
+    "username": "momo",
+    "password": "11111111",
+    "email": "nakonakonako@gmail.com",
+    "names": "Lê Trọng Khải",
+    "phone": "0907942969",
+    "balance": 100
+}
+
+###
+DELETE http://127.0.0.1:3000/api/users/4
+
+###
+GET http://127.0.0.1:3000/api/products
+
+###
+POST http://127.0.0.1:3000/api/products
+content-type: application/json
+
+{
+    "title": "iPad Pro",
+    "description": "An iPad is a tablet PC designed by Apple Inc. The iPad features a 9.7-inch touch screen that users can interact with directly through finger strokes. This portable device can be used for browsing the Web, listening to music, watching movies, reading e-books and playing games, among other things.",
+    "price": 799,
+    "amount": 100
+}
